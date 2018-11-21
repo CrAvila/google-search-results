@@ -36,11 +36,144 @@ body{
     font-family: Product;
 }
 
-#baner {
-    width: 100px;
+#banner {
+    margin-top: 25px;
+    margin-left: 15px;
+    width: 120px;
+    height: 40px;
 }
 
 .top-section {
-    background-color: black;
+    height: 122px;
+    background-color: #fafafa;
+    border-bottom: 1px solid #e0e0e0;
     
 }
+
+.barra {
+    margin-top: -55px;
+    display: block;
+    margin-left: -350px;
+    margin-right: auto;
+    text-align: center;
+}
+
+
+input[type="text"]{
+    border-radius: 3px;
+    border: none;
+    padding: 10px;
+    margin: 10px;
+    height: 25px;
+    width: 610px;
+    border: 1px solid #eaeaea;
+    outline: none;
+    
+}
+
+input:hover {
+    border-color: #a0a0a0 #b0b0b0 #b0b0b0 #b0b0b0; 
+    box-shadow: 0.1px 0.5px 0.5px black;
+}
+
+#micro {
+    position: absolute;
+    height: 25px;
+    width: 25px;
+    margin-top: -47px;
+    margin-left: 235px;
+}
+
+#voz {
+    margin-top: -5px;
+    margin-left: 1010px;
+    position: absolute;
+    padding: 5px;
+    font-size: 10px;
+    color: #fff;
+    background-color: #212121;
+    width: 100px;
+    display: none;
+}
+
+.bpv:hover #voz {
+    display: block;
+}
+
+#lupa {
+    position: absolute;
+    margin-left: 275px;
+    margin-top: -46px;
+}
+
+#ga{
+
+    background-color: #212121;
+    color: white;
+    font-size: 13px;
+    width: 90px;
+    padding: 5px 3px;
+    margin-right: 125px;
+    position: relative;
+    float: right;
+    margin-top: 20px;
+    transform: translate(-20px, -30px);
+    text-align: center;
+    opacity: 0;
+    }
+    
+    #google-apps:hover #ga{
+        opacity: 100;
+    }
+    
+    #google-apps {
+        margin-right: -15px;
+    }
+
+    #ga-svg {
+        position: absolute;
+        margin-top: -42px;
+        margin-left: 1090px;
+    }
+
+
+#login {
+    font-size: 13px;
+    position: absolute;
+    border: 1px solid #4285f4;
+    font-weight: bold;
+    background: -webkit-linear-gradient(top, #4387fd,#4683ea);
+    color: #fff;
+    padding: 5px;
+    width: 109.09px;
+    height: 30px;
+    border-radius: 3px;
+    margin-top: -50px;
+    margin-left: 1130px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin-left: 150px;
+    margin-top: 15px;
+}
+
+nav li {
+ float: left;
+}
+nav a{
+    padding: 10px 13px;
+    font-size: 15px;
+    color: #616161;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #212121;
+}
+
+.selected a{
+    color: #4285f4;
+    border-bottom: 3px solid #4285f4;
+}
+    
