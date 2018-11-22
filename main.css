@@ -250,3 +250,52 @@ article {
     margin-right: 170px;
 }
 
+.preview {
+    margin-top: 20px;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border: 1px solid #e0e0e0;
+    padding: 15px;
+    box-shadow: 1px 1px 1px #b0b0b0;
+}
+
+.inst li p{
+    color: black;
+    padding: 5px;
+}
+
+
+h3 {
+    font-weight: bold;
+}
+
+.elementos {
+    font-size: 13px;
+    color: #808080;
+    padding: 10px;
+}
+
+.preview a {
+    text-decoration: none;
+}
+
+
+.acc {
+    margin-left: -50px;
+    padding: 5px;
+    color: #616161;
+    padding-bottom: 25px;
+    float: right;
+    
+}
+
+
+#acerca {
+    font-size: 10px;
+}
+
+#svg-acerca {
+    margin-left: -250px;
+}
+
