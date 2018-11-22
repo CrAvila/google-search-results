@@ -176,4 +176,77 @@ nav a:hover {
     color: #4285f4;
     border-bottom: 3px solid #4285f4;
 }
+
+article {
+    margin-top: 20px;
+    width: 602px;
+    margin-left: 150px;
+}
+
+.resultados {
+    color: #808080;
+    font-size: 12px;
+    padding-left: 20px;
+}
+
+.paginas {
+    margin-bottom: -25px;
+    padding: 25px 20px;
+    font-size: 18px;
     
+}
+
+.paginas a {
+    text-decoration: none;
+}
+ 
+.paginas a:hover {
+    text-decoration: underline;
+}
+
+.anuncio a{
+    color: green;
+    font-size: 13px;
+}
+
+.anuncio a:hover{
+    text-decoration: none;
+    color: green;
+    font-size: 13px;
+}
+
+.traducir {
+    font-size: 13px;
+}
+
+.fechas {
+    font-size: 13px;
+    color: #616161;
+}
+
+.desc {
+    font-size: 13px;
+}
+
+.traducir {
+    position: relative;
+    display: inline;
+    float: right;
+    color: blue;
+    margin-top: -15px;
+    margin-right: 50px;
+    
+}
+
+#uno{
+    margin-right: 205px;
+}
+
+#dos {
+    margin-right: 190px;
+}
+
+#tres {
+    margin-right: 170px;
+}
+
