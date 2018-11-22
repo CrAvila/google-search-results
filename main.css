@@ -299,3 +299,80 @@ h3 {
     margin-left: -250px;
 }
 
+
+.gooogle{
+    display: block;
+    width: 700px;
+    margin-left: 100px;
+    margin-right: auto;
+    margin-top: 30px;
+}
+.nums {
+    margin-left: 41px;
+}
+.nums a{
+    font-size: 12px;
+    float: left;
+    padding: 5px 6.6px;
+}
+
+.siguiente {
+    position: absolute;
+    margin-right: -100px;
+    font-size: 12px;
+    margin-top: 4px;
+    margin-left: 50px;
+}
+
+.footer li a{
+    float: right;
+    color: #757575;
+}
+
+.bottom {
+   
+   margin-top: 50px;
+}
+
+#left-list {
+    float: left;
+}
+
+footer {
+    height: 20px;
+    padding: 10px 165px;
+    background-color: #eeeeee;
+    background-color: #eeeeee;
+    color: rgba(0,0,0,.54);
+    font-size: 13px;
+    border-bottom: 1px solid #e0e0e0;
+    
+}
+
+footer li {
+    padding-right: 0px;
+}
+
+.country {
+    padding: 10px 170px;
+    background-color: #eeeeee;
+    color: rgba(0,0,0,.54);
+    border-top: 1px solid #e0e0e0;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.bottom ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.bottom li {
+    float: right;
+    padding: 5px;
+}
+
+.bottom li a {
+    text-decoration: none;
+}
+
